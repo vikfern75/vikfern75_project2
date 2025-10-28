@@ -1,7 +1,7 @@
 /* General Page Setup */
 body {
-  background-color: #000;
-  color: #f0f0f0;
+  background-color: #ffffff;
+  color: #222222;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
@@ -11,13 +11,13 @@ body {
 /* Navigation Bar */
 ul {
   list-style-type: none;
-  background-color: #222;
+  background-color: #f2f2f2;
   margin: 0;
-  padding: 10px;
+  padding: 12px;
   overflow: hidden;
   display: flex;
   justify-content: center;
-  border-bottom: 2px solid #444;
+  border-bottom: 2px solid #cccccc;
 }
 
 li {
@@ -25,23 +25,23 @@ li {
 }
 
 li a {
-  color: #00bfff;
+  color: #0077cc;
   text-decoration: none;
   font-weight: bold;
   padding: 8px 16px;
-  border-radius: 8px;
+  border-radius: 6px;
   transition: background-color 0.3s, color 0.3s;
 }
 
 li a:hover {
-  background-color: #00bfff;
-  color: #000;
+  background-color: #0077cc;
+  color: white;
 }
 
 /* Headings */
 h1, h2 {
   text-align: center;
-  color: #00bfff;
+  color: #0077cc;
 }
 
 h1 {
@@ -59,7 +59,7 @@ p {
   width: 80%;
   margin: 10px auto;
   font-size: 1.1em;
-  color: #dcdcdc;
+  color: #333333;
   text-align: justify;
 }
 
@@ -67,37 +67,37 @@ p {
 img {
   display: inline-block;
   margin: 15px;
-  border: 3px solid #00bfff;
+  border: 3px solid #0077cc;
   border-radius: 10px;
-  box-shadow: 0 0 15px #00bfff;
+  box-shadow: 0 0 10px rgba(0, 119, 204, 0.3);
 }
 
-/* Video */
-video {
+/* Video and Audio */
+video, audio {
   display: block;
   margin: 20px auto;
-  border: 3px solid #00bfff;
+  border: 2px solid #0077cc;
   border-radius: 10px;
-  box-shadow: 0 0 15px #00bfff;
+  box-shadow: 0 0 10px rgba(0, 119, 204, 0.3);
 }
 
-/* Resume Page (optional custom sections) */
+/* Section Formatting */
 section {
   width: 80%;
   margin: 20px auto;
   padding: 15px;
-  background-color: #111;
+  background-color: #fafafa;
   border-radius: 10px;
-  border: 1px solid #333;
+  border: 1px solid #ddd;
 }
 
 /* Footer */
 footer {
   text-align: center;
   padding: 10px;
-  background-color: #111;
-  color: #999;
-  border-top: 2px solid #333;
+  background-color: #f2f2f2;
+  color: #666;
+  border-top: 2px solid #ccc;
   margin-top: 40px;
   font-size: 0.9em;
 }
