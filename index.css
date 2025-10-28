@@ -1,68 +1,78 @@
-/* General page styling */
+/* === General Page Style === */
 body {
-  background-color: #f9f9f9;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 40px;
-  color: #333;
-}
-
-/* Navigation menu */
-.nav {
-  list-style-type: none;
-  padding: 0;
-  margin-bottom: 20px;
-  background-color: #222;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.nav li {
-  float: left;
-}
-
-.nav li a {
-  display: block;
   color: white;
+  background-color: black;
+  background-image: url("background.jpg"); /* optional */
+  background-repeat: repeat;
+  background-size: auto;
+  margin: 0;
+  padding: 0;
   text-align: center;
+}
+
+/* === Navigation Bar === */
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  display: inline;
+}
+
+ul li a {
+  display: block;
   padding: 14px 20px;
+  color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
-.nav li a:hover {
-  background-color: #575757;
+ul li a:hover {
+  background-color: #444;
+  color: #00bfff;
 }
 
-/* Headings */
-h1 {
-  color: #0044cc;
+/* === Headings === */
+h1, h2 {
+  color: #00bfff;
+  margin-top: 20px;
 }
 
-h2 {
-  color: #0077cc;
-  margin-top: 30px;
-}
-
-/* Paragraphs */
+/* === Paragraphs === */
 p {
+  width: 80%;
+  margin: 10px auto;
   line-height: 1.6;
-  max-width: 800px;
+  font-size: 1.1em;
 }
 
-/* Image section */
-.images {
-  margin-top: 15px;
+/* === Images === */
+img {
+  margin: 10px;
+  border: 2px solid #00bfff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(255,255,255,0.3);
 }
 
-.images img {
-  margin-right: 10px;
-  border-radius: 10px;
-  border: 2px solid #ccc;
-}
-
-/* Video styling */
+/* === Video === */
 video {
   display: block;
-  margin-top: 20px;
-  border-radius: 8px;
-  border: 3px solid #0077cc;
+  margin: 20px auto;
+  border: 3px solid #00bfff;
+  border-radius: 10px;
+}
+
+/* === Links === */
+a {
+  color: #00bfff;
+}
+
+a:hover {
+  text-decoration: underline;
 }
